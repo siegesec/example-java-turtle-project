@@ -3,8 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
-# VS Code configuration
+# Ignore these file types and folders as well
+*.code-workspace
 .vscode/
+bin/
+out/
+target/
 
 # User-specific files
 *.rsuser
